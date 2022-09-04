@@ -6,7 +6,7 @@
 
 ## Available Docker image versions
 
-| Docker tag              | Ubuntu from  | Azure CLI from   | Kubectl from   |
-| ----------------------- | ------------ | ---------------- | -------------- |
-| `latest`                | Ubuntu 20.04 | azure-cli latest | kubectl latest |
-| `az2.0.81-kubectl4.5.7` | Ubuntu 20.04 | azure-cli 2.0.81 | kubectl v4.5.7 |
+| Docker tag               | Ubuntu from  | Azure CLI from   | Kubectl from   |
+| ------------------------ | ------------ | ---------------- | -------------- |
+| `latest`                 | Ubuntu 20.04 | azure-cli latest | kubectl latest |
+| `az2.39.0-kubectl1.25.0` | Ubuntu 20.04 | azure-cli 2.39.0 | kubectl 1.25.0 |
