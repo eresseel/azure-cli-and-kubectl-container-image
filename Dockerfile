@@ -14,4 +14,4 @@ RUN curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg \
     echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | \
     tee /etc/apt/sources.list.d/kubernetes.list
 
-RUN apt-get update && apt-get install -qqy azure-cli kubectl
+RUN apt-get update && apt-get install -qqy azure-cli=2.39.0-1~focal kubectl=1.25.0-00

@@ -2,7 +2,7 @@ name: Docker Image CI
 on: [push]
 
 env:
-  TAG_NAME: latest
+  TAG_NAME: az2.39.0-kubectl1.25.0
   IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/azure-cli-kubectl
   ARTIFACT_NAME: azure-cli-kubectl
 
